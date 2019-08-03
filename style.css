@@ -1,0 +1,29 @@
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+h2 {
+	font-family: cursive;
+	font-size: 3em;
+	letter-spacing: 12px;
+	text-align: center;
+	border-bottom: solid 5px blue ;
+	width: 500px; 
+	margin: auto;
+	transition: all 1s;
+
+}
+h2:hover{
+	transform: scale(1.1);
+}
+img{
+	width: 400px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+img:hover{
+	transform: scale(1.1);
+}
